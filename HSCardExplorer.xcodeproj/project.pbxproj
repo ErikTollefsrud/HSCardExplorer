@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF13454F23CFAA4400779415 /* HSCardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13454E23CFAA4400779415 /* HSCardImageView.swift */; };
+		EF13455323D0BB0F00779415 /* CardListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13455223D0BB0F00779415 /* CardListVC.swift */; };
+		EF13455523D0F3A500779415 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13455423D0F3A500779415 /* UIHelper.swift */; };
+		EF13455723D0FD8F00779415 /* CardCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13455623D0FD8F00779415 /* CardCellCollectionViewCell.swift */; };
+		EF16B88A23BAE554008488B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B88923BAE554008488B4 /* AppDelegate.swift */; };
+		EF16B88C23BAE554008488B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B88B23BAE554008488B4 /* SceneDelegate.swift */; };
+		EF16B89323BAE555008488B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF16B89223BAE555008488B4 /* Assets.xcassets */; };
+		EF16B89623BAE555008488B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF16B89423BAE555008488B4 /* LaunchScreen.storyboard */; };
+		EF16B8A223BBE89D008488B4 /* CardTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B8A123BBE89D008488B4 /* CardTableVC.swift */; };
+		EF16B8A423BBF551008488B4 /* CardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B8A323BBF551008488B4 /* CardTVC.swift */; };
+		EF16B8A623BC0B75008488B4 /* HSCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B8A523BC0B75008488B4 /* HSCard.swift */; };
+		EF65F6CE23D2BCAA0001271C /* CardFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65F6CD23D2BCAA0001271C /* CardFilterButton.swift */; };
+		EF65F6D023D2BE960001271C /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65F6CF23D2BE960001271C /* UIImage+Ext.swift */; };
+		EFEFCE6A23CD6159007FBB3C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFCE6923CD6159007FBB3C /* NetworkManager.swift */; };
+		EFEFCE6D23CD6208007FBB3C /* HSJSONError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFCE6C23CD6208007FBB3C /* HSJSONError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF13454E23CFAA4400779415 /* HSCardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCardImageView.swift; sourceTree = "<group>"; };
+		EF13455223D0BB0F00779415 /* CardListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListVC.swift; sourceTree = "<group>"; };
+		EF13455423D0F3A500779415 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		EF13455623D0FD8F00779415 /* CardCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF16B88623BAE554008488B4 /* HSCardExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSCardExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16B88923BAE554008488B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF16B88B23BAE554008488B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF16B89223BAE555008488B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF16B89523BAE555008488B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF16B89723BAE555008488B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF16B8A123BBE89D008488B4 /* CardTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableVC.swift; sourceTree = "<group>"; };
+		EF16B8A323BBF551008488B4 /* CardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTVC.swift; sourceTree = "<group>"; };
+		EF16B8A523BC0B75008488B4 /* HSCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCard.swift; sourceTree = "<group>"; };
+		EF65F6CD23D2BCAA0001271C /* CardFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFilterButton.swift; sourceTree = "<group>"; };
+		EF65F6CF23D2BE960001271C /* UIImage+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		EFEFCE6923CD6159007FBB3C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EFEFCE6C23CD6208007FBB3C /* HSJSONError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSJSONError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF16B88323BAE554008488B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF13454B23CFA9D300779415 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EFEFCE6923CD6159007FBB3C /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF13454C23CFA9ED00779415 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF13454D23CFAA1900779415 /* Cells */,
+				EF16B8A523BC0B75008488B4 /* HSCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF13454D23CFAA1900779415 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF13454E23CFAA4400779415 /* HSCardImageView.swift */,
+				EF13455623D0FD8F00779415 /* CardCellCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF13455023D0BAE200779415 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF65F6CC23D2BC820001271C /* Buttons */,
+				EF13455123D0BAE800779415 /* Scenes */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		EF13455123D0BAE800779415 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF13455223D0BB0F00779415 /* CardListVC.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF16B87D23BAE554008488B4 = {
+			isa = PBXGroup;
+			children = (
+				EF16B88823BAE554008488B4 /* HSCardExplorer */,
+				EF16B88723BAE554008488B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF16B88723BAE554008488B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF16B88623BAE554008488B4 /* HSCardExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF16B88823BAE554008488B4 /* HSCardExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				EF13455023D0BAE200779415 /* Custom Views */,
+				EF13454C23CFA9ED00779415 /* Models */,
+				EF13454B23CFA9D300779415 /* Managers */,
+				EFEFCE6B23CD61ED007FBB3C /* Utilities */,
+				EF16B88923BAE554008488B4 /* AppDelegate.swift */,
+				EF16B88B23BAE554008488B4 /* SceneDelegate.swift */,
+				EF16B89223BAE555008488B4 /* Assets.xcassets */,
+				EF16B89423BAE555008488B4 /* LaunchScreen.storyboard */,
+				EF16B89723BAE555008488B4 /* Info.plist */,
+				EF16B8A123BBE89D008488B4 /* CardTableVC.swift */,
+				EF16B8A323BBF551008488B4 /* CardTVC.swift */,
+			);
+			path = HSCardExplorer;
+			sourceTree = "<group>";
+		};
+		EF65F6CC23D2BC820001271C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF65F6CD23D2BCAA0001271C /* CardFilterButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EFEFCE6B23CD61ED007FBB3C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF65F6CF23D2BE960001271C /* UIImage+Ext.swift */,
+				EFEFCE6C23CD6208007FBB3C /* HSJSONError.swift */,
+				EF13455423D0F3A500779415 /* UIHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF16B88523BAE554008488B4 /* HSCardExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16B89A23BAE555008488B4 /* Build configuration list for PBXNativeTarget "HSCardExplorer" */;
+			buildPhases = (
+				EF16B88223BAE554008488B4 /* Sources */,
+				EF16B88323BAE554008488B4 /* Frameworks */,
+				EF16B88423BAE554008488B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSCardExplorer;
+			productName = Redux;
+			productReference = EF16B88623BAE554008488B4 /* HSCardExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF16B87E23BAE554008488B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Erik Tollefsrud";
+				TargetAttributes = {
+					EF16B88523BAE554008488B4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = EF16B88123BAE554008488B4 /* Build configuration list for PBXProject "HSCardExplorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF16B87D23BAE554008488B4;
+			productRefGroup = EF16B88723BAE554008488B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF16B88523BAE554008488B4 /* HSCardExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF16B88423BAE554008488B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16B89623BAE555008488B4 /* LaunchScreen.storyboard in Resources */,
+				EF16B89323BAE555008488B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF16B88223BAE554008488B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEFCE6D23CD6208007FBB3C /* HSJSONError.swift in Sources */,
+				EFEFCE6A23CD6159007FBB3C /* NetworkManager.swift in Sources */,
+				EF16B88A23BAE554008488B4 /* AppDelegate.swift in Sources */,
+				EF13455523D0F3A500779415 /* UIHelper.swift in Sources */,
+				EF13454F23CFAA4400779415 /* HSCardImageView.swift in Sources */,
+				EF65F6CE23D2BCAA0001271C /* CardFilterButton.swift in Sources */,
+				EF65F6D023D2BE960001271C /* UIImage+Ext.swift in Sources */,
+				EF13455723D0FD8F00779415 /* CardCellCollectionViewCell.swift in Sources */,
+				EF16B88C23BAE554008488B4 /* SceneDelegate.swift in Sources */,
+				EF16B8A223BBE89D008488B4 /* CardTableVC.swift in Sources */,
+				EF16B8A623BC0B75008488B4 /* HSCard.swift in Sources */,
+				EF16B8A423BBF551008488B4 /* CardTVC.swift in Sources */,
+				EF13455323D0BB0F00779415 /* CardListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF16B89423BAE555008488B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF16B89523BAE555008488B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF16B89823BAE555008488B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = HSCardExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF16B89923BAE555008488B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = HSCardExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF16B89B23BAE555008488B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 936VDEB3YQ;
+				INFOPLIST_FILE = HSCardExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.insidersoftware.HSCardExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF16B89C23BAE555008488B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 936VDEB3YQ;
+				INFOPLIST_FILE = HSCardExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.insidersoftware.HSCardExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF16B88123BAE554008488B4 /* Build configuration list for PBXProject "HSCardExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16B89823BAE555008488B4 /* Debug */,
+				EF16B89923BAE555008488B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF16B89A23BAE555008488B4 /* Build configuration list for PBXNativeTarget "HSCardExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16B89B23BAE555008488B4 /* Debug */,
+				EF16B89C23BAE555008488B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF16B87E23BAE554008488B4 /* Project object */;
+}

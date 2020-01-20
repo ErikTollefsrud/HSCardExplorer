@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7C477DC2-3791-4F27-8E9B-4DCF1EE1AE24"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61B3F070-6E84-4D19-A47B-ABBE55BB99C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Redux/Custom Views/Scenes/CardListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getCards()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805DA3A2-D954-47A9-8AE7-98BDE89E8F78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Redux/Custom Views/Scenes/CardListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateData(on:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "805DA3A2-D954-47A9-8AE7-98BDE89E8F78 - 2411cbfe1ffa72e3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Redux.CardListVC.updateData(on: Swift.Array&lt;Redux.HSCard&gt;) -&gt; ()"
+                  moduleName = "Redux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nightsun/Desktop/Redux/Redux/Custom%20Views/Scenes/CardListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "475">
+               </Location>
+               <Location
+                  uuid = "805DA3A2-D954-47A9-8AE7-98BDE89E8F78 - 26e7cc5c9976f79a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Redux.CardListVC.updateData(on: Swift.Array&lt;Redux.HSCard&gt;) -&gt; ()"
+                  moduleName = "Redux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nightsun/Desktop/Redux/Redux/Custom%20Views/Scenes/CardListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDA54B94-08F6-43D2-A613-13322B1B1ADB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Redux/Models/Cells/HSCardImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "downloadCardImage(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

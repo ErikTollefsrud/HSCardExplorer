@@ -108,6 +108,7 @@ enum HSSet: String, Codable {
     case troll = "TROLL"
     case uldum = "ULDUM"
     case ungoro = "UNGORO"
+    case yearOfTheDragon = "YEAR_OF_THE_DRAGON"
 }
 
 enum Race: String, Codable {
